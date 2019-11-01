@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 export default function Dashboard(props) {
 	const Buttons = styled.div`
-		width: 20%;
-		margin-left: 5%;
-		padding: 10px;
+		width: 100%;
 		border-radius: 30px;
-		width: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		align-content: center;
 	`;
 	const Button = styled.button`
@@ -19,10 +19,7 @@ export default function Dashboard(props) {
 		height: 2rem;
 		margin-bottom: 20px;
 		margin-top: 20p;
-		display: flex;
-		justify-content: row;
 		border-radius: 30px;
-		justify-content: center;
 	`;
 
 	return (
